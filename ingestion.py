@@ -12,7 +12,7 @@ load_dotenv()
 
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
-PDF_PATH = "./data/essay.pdf"
+PDF_PATH = "./data/essay_Part4.pdf"
 CHROMA_PATH = "chroma_db"
 
 # Load PDF and extract text
